@@ -1,0 +1,33 @@
+* {
+  transition: all 0.2s;
+}
+.calc-block {
+  border: 2px grey solid;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+span {
+  vertical-align: middle;
+}
+.price-btn {
+  display: block;
+  margin: 1rem auto;
+}
+.calc-img img {
+  width: 100%;
+  max-width: 500px;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+}
+.red-color {
+  background: #8c0e0f;
+}
+.blue-color {
+  background: #183a6d;
+}
+.black-color {
+  background: #070300;
+}

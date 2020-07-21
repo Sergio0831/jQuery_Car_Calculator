@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Car Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/material-kit.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Полноценный калькулятор цены</h3>
+      <hr />
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="calc-block">
+            <h4>Выберите данные</h4>
+            <hr />
+            <!-- Car Model -->
+            <span>Выберите модель</span>
+            <div class="car-model">
+              <div class="radio">
+                <label>
+                  <input type="radio" value="sedan" name="typeOfCar" />
+                  Audi A6 Sedan
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="avant" name="typeOfCar" />
+                  Audi A6 Avant
+                </label>
+              </div>
+            </div>
+            <hr />
+            <!-- Car Color -->
+            <span>Какой цвет?</span>
+            <div class="car-color">
+              <div class="radio">
+                <label>
+                  <input type="radio" value="red" name="typeOfColor" />
+                  <div class="color red-color"></div>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="blue" name="typeOfColor" />
+                  <div class="color blue-color"></div>
+                </label>
+              </div>
+            </div>
+            <hr />
+            <!-- Car Disc -->
+            <span>Какие диски?</span>
+            <div class="car-disc">
+              <div class="radio">
+                <label>
+                  <input type="radio" value="17inch" name="typeOfDisc" />
+                  17"
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" value="18inch" name="typeOfDisc" />
+                  18"
+                </label>
+              </div>
+            </div>
+            <!-- Button -->
+            <hr />
+            <button class="btn btn-primary price-btn">Рассчитать цену</button>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="calc-img">
+            <img src="img/audiA6_red.jfif" alt="" />
+          </div>
+          <h4>Итоговая стоимость:</h4>
+          <h2><span id="price">0</span> <small>&#8364;</small></h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/material.min.js"></script>
+    <script src="js/material-kit.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
